@@ -13,6 +13,7 @@ function getDb() {
   if (!database) {
     throw new Error("You must connect first!");
   }
+  return database;
 }
 
 module.exports = {
